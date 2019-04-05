@@ -1,4 +1,4 @@
-# spring_study
+# spring study
 所有项目使用idea开发，springboot版本为2.1.3.RELEASE jdk为11
 ## springboot ##
 1. web组件引用
