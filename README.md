@@ -47,5 +47,13 @@
     + 服务熔断
     + 服务隔离
     
-实现方式：
+    实现方式：
     1. 注解  @HystrixCommand(fallbackMethod = “*****”）
+    2. 类 在feignclient中指定fallback
+5. 分布式配置中心
+    + spring cloud config
+    + apollo
+    
+    从git获取配置文件缓存在configServer（作为一个服务）,configClient从configServer获取配置文件
+6. nginx+zuul实现动态网关集群
+7. swagger自动生成api文档工具
