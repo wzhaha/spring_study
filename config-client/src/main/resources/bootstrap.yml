@@ -1,0 +1,33 @@
+
+
+spring:
+  application:
+    name: configClient
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: configClient
+        heartbeat:
+          enabled: true
+          ttl-value: 30
+    config:
+      profile: dev
+      discovery:
+        service-id: config-service
+        enabled: true
+server:
+  port: 8506
+
+
+# 监控中心:
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
