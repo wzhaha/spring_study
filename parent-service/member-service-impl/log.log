@@ -1,0 +1,30 @@
+2019-04-03 12:25:58 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.14.Final
+2019-04-03 12:25:58 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e7f115a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 12:25:58 [main] INFO  [com.member.AppMember] - No active profile set, falling back to default profiles: default
+2019-04-03 12:25:59 [main] INFO  [org.springframework.cloud.context.scope.GenericScope] - BeanFactory id=3909e50a-4c93-35cc-a4c0-5e61f1d3cc24
+2019-04-03 12:25:59 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e7f115a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 12:26:00 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8503 (http)
+2019-04-03 12:26:00 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1425 ms
+2019-04-03 12:26:00 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] - No URLs will be polled as dynamic configuration sources.
+2019-04-03 12:26:00 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 12:26:00 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] - No URLs will be polled as dynamic configuration sources.
+2019-04-03 12:26:00 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 12:26:00 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 12:26:01 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'catalogWatchTaskScheduler'
+2019-04-03 12:26:01 [main] WARN  [org.springframework.cloud.netflix.core.CoreAutoConfiguration] - This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2019-04-03 12:26:01 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8503 (http) with context path ''
+2019-04-03 12:26:01 [main] INFO  [org.springframework.cloud.consul.serviceregistry.ConsulServiceRegistry] - Registering service with consul: NewService{id='member-service-8503', name='member-service', tags=[secure=false], address='wzhaha', meta=null, port=8503, enableTagOverride=null, check=Check{script='null', interval='null', ttl='30s', http='null', method='null', header=null, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+2019-04-03 12:26:01 [main] INFO  [com.member.AppMember] - Started AppMember in 3.499 seconds (JVM running for 4.283)
+2019-04-03 12:26:25 [http-nio-8503-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-04-03 12:26:25 [http-nio-8503-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 10 ms
+2019-04-03 12:26:25 [http-nio-8503-exec-1] INFO  [com.member.aop.WebControllerAop] - URL: http://wzhaha:8503/getMember
+2019-04-03 12:26:25 [http-nio-8503-exec-1] INFO  [com.member.aop.WebControllerAop] - Request params
+2019-04-03 12:26:25 [http-nio-8503-exec-1] INFO  [com.member.aop.WebControllerAop] - Response: User(name=王志 端口号是8503, age=20)
+2019-04-03 12:26:26 [http-nio-8503-exec-2] INFO  [com.member.aop.WebControllerAop] - URL: http://wzhaha:8503/getMember
+2019-04-03 12:26:26 [http-nio-8503-exec-2] INFO  [com.member.aop.WebControllerAop] - Request params
+2019-04-03 12:26:26 [http-nio-8503-exec-2] INFO  [com.member.aop.WebControllerAop] - Response: User(name=王志 端口号是8503, age=20)
+2019-04-03 12:26:40 [Thread-5] INFO  [org.springframework.cloud.consul.serviceregistry.ConsulServiceRegistry] - Deregistering service with consul: member-service-8503
+2019-04-03 12:26:40 [Thread-5] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Shutting down ExecutorService 'catalogWatchTaskScheduler'
+2019-04-03 12:26:40 [Thread-5] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 12:26:40 [Thread-5] WARN  [com.netflix.config.sources.URLConfigurationSource] - No URLs will be polled as dynamic configuration sources.
+2019-04-03 12:26:40 [Thread-5] INFO  [com.netflix.config.sources.URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.

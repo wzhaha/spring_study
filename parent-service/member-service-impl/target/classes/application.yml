@@ -1,0 +1,24 @@
+
+###会员服务的端口号
+server:
+  port: 8503
+  tomcat:
+    max-threads: 10
+###服务别名----服务注册到注册中心名称
+spring:
+  application:
+    name: member-service
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: member-service
+        heartbeat:
+          enabled: true
+          ttl-value: 30
+
+feign:
+    hystrix:
+        enabled: true
+

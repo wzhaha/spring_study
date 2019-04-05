@@ -1,0 +1,125 @@
+2019-04-03 11:51:34 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.14.Final
+2019-04-03 11:51:35 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c2f03d53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 11:51:35 [main] INFO  [com.order.AppOrder] - No active profile set, falling back to default profiles: default
+2019-04-03 11:51:36 [main] INFO  [org.springframework.cloud.context.scope.GenericScope] - BeanFactory id=3c6e0127-6b84-3e21-ae74-c008e11074c1
+2019-04-03 11:51:36 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'com.order.feign.MemberServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 11:51:36 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c2f03d53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 11:51:37 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8504 (http)
+2019-04-03 11:51:37 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1825 ms
+2019-04-03 11:51:38 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] - No URLs will be polled as dynamic configuration sources.
+2019-04-03 11:51:38 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 11:51:38 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] - No URLs will be polled as dynamic configuration sources.
+2019-04-03 11:51:38 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 11:51:38 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 11:51:38 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'catalogWatchTaskScheduler'
+2019-04-03 11:51:38 [main] WARN  [org.springframework.cloud.netflix.core.CoreAutoConfiguration] - This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2019-04-03 11:51:38 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8504 (http) with context path ''
+2019-04-03 11:51:38 [main] INFO  [org.springframework.cloud.consul.serviceregistry.ConsulServiceRegistry] - Registering service with consul: NewService{id='order-service-8504', name='order-service', tags=[secure=false], address='wzhaha', meta=null, port=8504, enableTagOverride=null, check=Check{script='null', interval='null', ttl='30s', http='null', method='null', header=null, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+2019-04-03 11:51:38 [main] INFO  [com.order.AppOrder] - Started AppOrder in 4.313 seconds (JVM running for 5.181)
+2019-04-03 11:58:26 [Thread-5] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Shutting down ExecutorService 'catalogWatchTaskScheduler'
+2019-04-03 11:58:26 [Thread-5] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 11:58:26 [Thread-5] WARN  [com.netflix.config.sources.URLConfigurationSource] - No URLs will be polled as dynamic configuration sources.
+2019-04-03 11:58:26 [Thread-5] INFO  [com.netflix.config.sources.URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 11:58:26 [Thread-5] INFO  [org.springframework.cloud.consul.serviceregistry.ConsulServiceRegistry] - Deregistering service with consul: order-service-8504
+2019-04-03 12:24:40 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.0.14.Final
+2019-04-03 12:24:41 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ffec4229] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 12:24:41 [main] INFO  [com.order.AppOrder] - No active profile set, falling back to default profiles: default
+2019-04-03 12:24:42 [main] INFO  [org.springframework.cloud.context.scope.GenericScope] - BeanFactory id=3c6e0127-6b84-3e21-ae74-c008e11074c1
+2019-04-03 12:24:42 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'com.order.feign.MemberServiceFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 12:24:42 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ffec4229] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-03 12:24:43 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8504 (http)
+2019-04-03 12:24:43 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1373 ms
+2019-04-03 12:24:43 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] - No URLs will be polled as dynamic configuration sources.
+2019-04-03 12:24:43 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 12:24:43 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] - No URLs will be polled as dynamic configuration sources.
+2019-04-03 12:24:43 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-03 12:24:44 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-03 12:24:44 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'catalogWatchTaskScheduler'
+2019-04-03 12:24:44 [main] WARN  [org.springframework.cloud.netflix.core.CoreAutoConfiguration] - This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2019-04-03 12:24:44 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8504 (http) with context path ''
+2019-04-03 12:24:44 [main] INFO  [org.springframework.cloud.consul.serviceregistry.ConsulServiceRegistry] - Registering service with consul: NewService{id='order-service-8504', name='order-service', tags=[secure=false], address='wzhaha', meta=null, port=8504, enableTagOverride=null, check=Check{script='null', interval='null', ttl='30s', http='null', method='null', header=null, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+2019-04-03 12:24:44 [main] INFO  [com.order.AppOrder] - Started AppOrder in 3.794 seconds (JVM running for 4.655)
+2019-04-03 12:25:48 [http-nio-8504-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2019-04-03 12:25:48 [http-nio-8504-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 10 ms
+2019-04-03 12:25:48 [http-nio-8504-exec-1] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:25:48 [http-nio-8504-exec-1] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:25:48 [hystrix-member-service-1] INFO  [com.netflix.config.ChainedDynamicProperty] - Flipping property: member-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-04-03 12:25:48 [hystrix-member-service-1] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer] - Shutdown hook installed for: NFLoadBalancer-PingTimer-member-service
+2019-04-03 12:25:48 [hystrix-member-service-1] INFO  [com.netflix.loadbalancer.BaseLoadBalancer] - Client: member-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=member-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-04-03 12:25:48 [hystrix-member-service-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer] - Using serverListUpdater PollingServerListUpdater
+2019-04-03 12:25:48 [hystrix-member-service-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer] - DynamicServerListLoadBalancer for client member-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=member-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:ConsulServerList{serviceId='member-service', tag=null}
+2019-04-03 12:25:49 [http-nio-8504-exec-1] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:25:52 [http-nio-8504-exec-2] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:25:52 [http-nio-8504-exec-2] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:25:52 [http-nio-8504-exec-2] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:15 [http-nio-8504-exec-3] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:15 [http-nio-8504-exec-3] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:15 [http-nio-8504-exec-3] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:15 [http-nio-8504-exec-4] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:15 [http-nio-8504-exec-4] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:15 [http-nio-8504-exec-4] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:16 [http-nio-8504-exec-5] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:16 [http-nio-8504-exec-5] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:16 [http-nio-8504-exec-5] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:16 [http-nio-8504-exec-6] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:16 [http-nio-8504-exec-6] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:16 [http-nio-8504-exec-6] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:16 [http-nio-8504-exec-7] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:16 [http-nio-8504-exec-7] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:16 [http-nio-8504-exec-7] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:16 [http-nio-8504-exec-8] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:16 [http-nio-8504-exec-8] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:16 [http-nio-8504-exec-8] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:16 [http-nio-8504-exec-9] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:16 [http-nio-8504-exec-9] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:16 [http-nio-8504-exec-9] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:17 [http-nio-8504-exec-10] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:17 [http-nio-8504-exec-10] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:17 [http-nio-8504-exec-10] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:17 [http-nio-8504-exec-1] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:17 [http-nio-8504-exec-1] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:17 [http-nio-8504-exec-1] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"msg":"服务器忙，请稍后重试","rtnCode":500},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:19 [PollingServerListUpdater-0] INFO  [com.netflix.config.ChainedDynamicProperty] - Flipping property: member-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-04-03 12:26:25 [http-nio-8504-exec-2] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:25 [http-nio-8504-exec-2] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:25 [http-nio-8504-exec-2] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"name":"王志 端口号是8503","age":20},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:26 [http-nio-8504-exec-3] INFO  [com.order.aop.WebControllerAop] - URL: http://wzhaha:8504/getOrder
+2019-04-03 12:26:26 [http-nio-8504-exec-3] INFO  [com.order.aop.WebControllerAop] - Request params
+2019-04-03 12:26:26 [http-nio-8504-exec-3] INFO  [com.order.aop.WebControllerAop] - Response: {"member":{"name":"王志 端口号是8503","age":20},"order":{"orderNumber":"12345678","userName":"王志"}}
+2019-04-03 12:26:40 [Thread-9] INFO  [com.netflix.loadbalancer.PollingServerListUpdater] - Shutting down the Executor Pool for PollingServerListUpdater
+2019-04-03 12:26:40 [Thread-5] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Shutting down ExecutorService 'catalogWatchTaskScheduler'
+2019-04-03 12:26:40 [Thread-5] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-03 12:26:40 [Thread-5] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer] - Shutdown hook removed for: NFLoadBalancer-PingTimer-member-service
+2019-04-03 12:26:40 [Thread-5] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer] - Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.base/java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.base/java.lang.Runtime.removeShutdownHook(Runtime.java:243)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:337)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:271)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:92)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2019-04-03 12:26:40 [Thread-5] INFO  [org.springframework.cloud.consul.serviceregistry.ConsulServiceRegistry] - Deregistering service with consul: order-service-8504
