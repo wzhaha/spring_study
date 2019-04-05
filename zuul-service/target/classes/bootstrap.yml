@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: consul-zuul-gateway
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: consul-zuul-gateway
+        heartbeat:
+          enabled: true
+          ttl-value: 30
+    config:
+      profile: dev
+      discovery:
+        service-id: config-service
+        enabled: true
+server:
+  port: 82
+
+
+# 监控中心:
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
