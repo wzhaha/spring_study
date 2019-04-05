@@ -1,0 +1,55 @@
+学习记录
+
+一.springboot优化
+    1。jvm参数调优--影响运行效果 吞吐量
+        调优策略：初始化堆内存与最大堆相同，减少垃圾回收次数
+        内部运行调优：
+            指定初始堆内存与最大堆内存
+        外部运行调优：
+            Java -server -Xms32m -Xmx1024m -jar xxxx.jar
+
+    2。扫包优化
+        在启动项目时优化
+        @SpringBootApplication缺点：底层有@ComponentScan+@EnableAutoConfiguration
+        扫包时会把无用的包都扫到（使用递归遍历），影响启动时间
+
+    3。默认tomcat改为undertow
+        服务器名称   第一次     第二次     第三次
+        tomcat      652.6     643.4     720.3
+        undertow    646.1     705.4     943.9
+
+二.springboot 监控中心
+    1.什么是springboot监控中心？
+        针对微服务服务器监控，服务器内存变化（堆内存，线程，日志管理）
+        检测服务器配置连接是否可用(模拟访问，懒加载情况)
+        *统计现在有多少个bean（ioc中的bean）
+        *统计springmvc requestmapping的数量
+        ······
+        Actuator监控中心
+        AdminUI 底层使用Actuator监控中心，实现可视化
+        应用场景：生产环境
+    2.为什么要用监控中心？
+
+
+    默认情况下提供3个接口的权限(info,health,/)，需要手动开启
+    springboot 2.0之后监控地址发生变化
+
+
+
+
+三。纯手写springboot框架
+    1.springboot原理
+        快速整合第三方框架：maven子父依赖关系
+        无xml配置文件，使用注解：
+            springmvc内置注解加载整个mvc容器（@ablewebmvc），使用Java操作springmvc配置初始化
+        内置tomcat服务器：Java语言创建tomcat服务器，执行class文件，使用classloader
+
+
+    2。springmvc采用注解启动
+
+
+
+四。swagger
+    http://127.0.0.1:8080/swagger-ui.html
+
+
