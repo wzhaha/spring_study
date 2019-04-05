@@ -31,3 +31,21 @@
 6. mybatis集成以及pagehelper分页
 7. AOP技术应用（全局日志以及全局异常处理）
 ## springcloud学习记录
+1. springcloud核心--服务治理
+    + 注册中心
+        - eureka（推荐，国内已闭源）
+        - consule（推荐）
+        - zookeeper
+    + 服务注册
+    + 服务发现
+2. 服务间调用
+    + RestTemplate
+    + feign客户端（推荐）
+3. 服务集群与负载均衡
+4. Hystrix服务保护机制
+    + 服务降级
+    + 服务熔断
+    + 服务隔离
+    
+实现方式：
+    1. 注解  @HystrixCommand(fallbackMethod = “*****”）
