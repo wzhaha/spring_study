@@ -1,0 +1,20 @@
+# server
+server:
+  port: 9100
+
+spring:
+  application:
+    name: eureke-service
+# eureka
+eureka:
+  instance:
+    #注册中心ip地址
+    hostname: 127.0.0.1
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8100/eureka/
+    # 是否需要将自己注册到注册中心（集群的时候需要）
+    register-with-eureka: true
+    # 自己是注册中心，不需要检索服务信息
+    fetch-registry: true
+
